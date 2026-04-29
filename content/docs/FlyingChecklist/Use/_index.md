@@ -32,7 +32,7 @@ From the left:
 ### Input
 For input, the checklist has 8 buttons and a three-position sliding switch:
 
-![](ChecklistSliderStates.jpg)
+![](ChecklistSliderStates.en.jpg)
 
 
 When pocketed or otherwise left in a place where its buttons can get bumped, the sliding switch of the checklist should be left in the bottom position. This locks the device and temporarily stops any of the buttons from working. In the middle position, the checklist is unlocked and the buttons can all be used. Sliding the switch to the third, upmost position will start the recording of a new voice memo. This position is spring loaded, so the slider will return to the middle position as soon as it is let go, ending the recording. On completion, the recording is saved to internal memory, and is then transcribed opportunistically (when a wireless connection becomes available), and the note is eventually added as an item on the checklist page which was open when the recording was begun.

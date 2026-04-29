@@ -33,7 +33,7 @@ Fra venstre side betyder ikonerne:
 ### Huskelistens inputs
 Huskelisten har 8 knapper on en skydekontakt med tre positioner:
 
-![](ChecklistSliderStates.jpg)
+![](ChecklistSliderStates.da.jpg)
 
 Når huskelisten opbevares i en lomme, eller på en anden måde hvor knapperne risikerer at blive trykket ved et uheld, kan huskelisten låses ved at skubbe skydekontakten til den nederste position. Når huskelisten er låst, virker knapperne ikke. I skydekontaktens midterste position er huskelisten låst op, og knapperne kan bruges. Ved at skubbe skydekontakten op i den øverste position optages en ny lydnote. Den øverste position er fjerdret, så så snart kontakten slippes falder den tilbage til den midterste position og afslutter optagelsen. Når optagelsen er afsluttet bliver den gemt til huskelistens interne hukommelse og vil lejlighedsvist blive transkriberet, hvorefter noten tilføjes til huskelisten.
 

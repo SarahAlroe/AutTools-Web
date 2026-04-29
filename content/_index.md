@@ -14,9 +14,6 @@ Have you been wanting to keep a diary but found it too difficcult to establish t
 
 AutCorders are small, minimal interaction-barrierer recording devices for taking low resolution pictures and recording short audio clips. The devices have been (and are being) designed to enable a daily practice of reflective data-capture with minimal intervention or interruption. So, instead of trying to keep a diary, keep an AutCorder around to take pictures or audio throughout the day, to collect memories of things that matter.
 
-<!--{{< card image="Feature-V2AutCorders.jpg" >}}
-{{< /card >}}-->
-
 ![](images/Feature-V2AutCorders.jpg)
 <em>The AutCorders come in many different shapes and can be customized for individual needs and practices.</em>
 
