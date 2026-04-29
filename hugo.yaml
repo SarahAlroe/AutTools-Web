@@ -8,7 +8,7 @@ baseURL: https://auttools.cc/
 title: AutTools
 theme: hugo-book
 
-copyright: "[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)"
+copyright: ""
 
 # Book configuration
 disablePathToLower: true
@@ -19,6 +19,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    duplicateResourceFiles: true
   tableOfContents:
     startLevel: 1
   highlight:
@@ -35,25 +36,41 @@ languages:
   da:
     label: Dansk
     weight: 2
+    menu:
+      home:
+        - name: "AutCorder"
+          pageRef: "/docs/AutCorder"
+          weight: 1
+        - name: "NeoInfinity"
+          pageRef: "/docs/NeoInfinity"
+          weight: 1
+        - name: "Checklist"
+          pageRef: "/docs/FlyingChecklist"
+          weight: 1
+        - name: "Github"
+          url: "https://github.com/SarahAlroe/AutCorder"
+          weight: 10
+        - name: "🇺🇸/🇬🇧"
+          url: "/"
+          weight: 10
 
 menu:
   home:
-    - name: "Documentation"
-      pageRef: "/docs/example/"
+    - name: "AutCorder"
+      pageRef: "/docs/AutCorder"
       weight: 1
-    - pageRef: "/docs/example/"
-      weight: 10
-      parent: "Documentation"
-    - name: "Shortcodes"
-      pageRef: "/docs/shortcodes/buttons/"
-      weight: 20
-      parent: "Documentation"
-    - name: "Showcases"
-      pageRef: "/showcases/"
-      weight: 2
+    - name: "NeoInfinity"
+      pageRef: "/docs/NeoInfinity"
+      weight: 1
+    - name: "Checklist"
+      pageRef: "/docs/FlyingChecklist"
+      weight: 1
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book/"
-      weight: 3
+      url: "https://github.com/SarahAlroe/AutCorder"
+      weight: 10
+    - name: "🇩🇰"
+      url: "/da/"
+      weight: 20
 
   # before: []
   after:
@@ -67,7 +84,7 @@ menu:
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme: "auto"
+  BookTheme: "light"
 
   # (Optional, default none) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled globally with markup.tableOfContents setting.
@@ -95,13 +112,13 @@ params:
   # (Optional, default none) Set template for edit page link.
   # When set enabled 'Edit this page' link in the footer of the page.
   # Param is executed as template using .Site, .Page and .Path as context.
-  BookEditLink: 'https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/{{ .Path }}'
+  #BookEditLink: 'https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/{{ .Path }}'
 
   # (Optional, default 'January 2, 2006') Configure the date format used on the pages
   # - In git information
   # - In blog posts
   # https://gohugo.io/functions/time/format/
-  BookDateFormat: "January 2, 2006"
+  #BookDateFormat: "January 2, 2006"
 
   # (Optional, default true) Enables search function with flexsearch,
   # Index is built on fly, therefore it might slowdown your website.
@@ -112,7 +129,7 @@ params:
   # By default partials/docs/comments.html includes Disqus template
   # See https://gohugo.io/content-management/comments/#configure-disqus
   # Can be overwritten by same param in page frontmatter
-  BookComments: true
+  BookComments: false
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
