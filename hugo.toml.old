@@ -1,0 +1,54 @@
+baseURL = 'https://auttools.cc/'
+languageCode = 'en-us'
+title = 'AutTools'
+theme = "hugo-book"
+
+disablePathToLower = true
+enableGitInfo = false
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[languages]
+[languages.en]
+  languageName = 'English'
+  weight = 1
+
+[languages.da]
+  languageName = 'Dansk'
+  weight = 2
+[languages.da.menu]
+[[languages.da.menu.home]]
+  name = "Dokumentation"
+  url = "/da/docs/AutCorder"
+  weight = 1
+[[languages.da.menu.home]]
+  name = "Github"
+  url = "https://github.com/SarahAlroe/AutCorder"
+  weight = 3
+[[languages.da.menu.home]]
+  name = "🇺🇸/🇬🇧"
+  url = "/"
+  weight=10
+
+
+[menu]
+[[menu.home]]
+  name = "Documentation"
+  url = "/docs/AutCorder"
+  weight = 1
+
+[[menu.home]]
+  name = "Github"
+  url = "https://github.com/SarahAlroe/AutCorder"
+  weight = 3
+
+[[menu.home]]
+  name = "🇩🇰"
+  url = "/da"
+  weight = 10
