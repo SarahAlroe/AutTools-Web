@@ -1,6 +1,7 @@
 ---
 weight: 1
 title: AutCorder
+bookCollapseSection: true
 ---
 
 # En kort introduktion til AutCorderne

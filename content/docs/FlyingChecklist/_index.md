@@ -1,6 +1,7 @@
 ---
 weight: 3
 title: A Flying Checklist
+bookCollapseSection: true
 ---
 
 # A Flying Checklist

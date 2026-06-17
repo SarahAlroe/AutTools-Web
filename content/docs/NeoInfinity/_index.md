@@ -1,6 +1,7 @@
 ---
 weight: 2
 title: NeoInfinity
+bookCollapseSection: true
 ---
 
 # NeoInfinity: An electronic badge that lights up in the colors of the spectrum

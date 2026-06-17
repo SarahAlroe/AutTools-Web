@@ -1,6 +1,7 @@
 ---
 weight: 3
 title: En Flyvende Huskeliste
+bookCollapseSection: true
 ---
 
 # En Flyvende Huskeliste

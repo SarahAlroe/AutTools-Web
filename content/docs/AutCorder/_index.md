@@ -1,6 +1,7 @@
 ---
 weight: 1
 title: AutCorder
+bookCollapseSection: true
 ---
 
 # A short introduction to the AutCorders

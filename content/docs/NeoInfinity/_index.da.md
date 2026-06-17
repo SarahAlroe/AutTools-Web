@@ -1,6 +1,7 @@
 ---
 weight: 2
 title: NeoInfinity
+bookCollapseSection: true
 ---
 
 # NeoInfinity: Et LED badge som lyser op i spektrummets farver.
